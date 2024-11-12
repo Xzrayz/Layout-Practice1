@@ -1,0 +1,39 @@
+body{
+    background-color: rgba(213, 0, 0, 0.532);
+    color: rgb(65, 65, 65);
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.top-image{
+    background-image: url(Images/img11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height:100%;
+}
+.text-top{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 4em;
+    text-align: center;
+}
+.navbar{
+    position: relative;
+    overflow: hidden;
+    background-color: hsl(234, 15%, 36%);
+    border-radius: 0%;
+}
+.navbar a{
+    font-size: 200%;
+    justify-content: space-around;
+    background-color: #92909063;
+    color: rgba(255, 255, 255, 0.947);
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 2%;
+}
